@@ -5,9 +5,8 @@ body.container
 block content
     h1 Bienvenu sur le blog !
 
-    for articles in article
+    for users in user
         div.col-7
-        a(href='/article/' + articles.id, alt)
-            img.pictureClass( src='/img/' + articles.picture + '.jpg')
-
-        p #{articles.title}
+            p #{users.fullname}
+            p #{users.email}
+        hr

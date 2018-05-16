@@ -1,0 +1,22 @@
+body{
+    background-color: cadetblue;
+    width: 100%;
+}
+
+.pictureClass{
+    max-width: 50%;
+    height: auto;
+}
+
+.postCard{
+    width: 100%;
+    background-color: black;
+    align-content: center;
+}
+
+
+
+
+
+
+
